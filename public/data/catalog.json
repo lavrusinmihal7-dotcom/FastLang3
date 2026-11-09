@@ -1,0 +1,167 @@
+{
+  "courses": {
+    "english": {
+      "name": "English",
+      "lang": "English",
+      "total": 10,
+      "reward": 150,
+      "overview": "learn_english.html",
+      "next": "english_mid"
+    },
+    "japanese": {
+      "name": "Japanese",
+      "lang": "Japanese",
+      "total": 10,
+      "reward": 150,
+      "overview": "learn_japanese.html",
+      "next": "japanese_kanji"
+    },
+    "italian": {
+      "name": "Italian",
+      "lang": "Italian",
+      "total": 10,
+      "reward": 150,
+      "overview": "learn_italian.html",
+      "next": "italian_mid"
+    },
+    "english_adv": {
+      "name": "Advanced English",
+      "lang": "English",
+      "total": 6,
+      "reward": 250,
+      "overview": "learn_english_adv.html"
+    },
+    "japanese_adv": {
+      "name": "Advanced Japanese",
+      "lang": "Japanese",
+      "total": 6,
+      "reward": 250,
+      "overview": "learn_japanese_adv.html"
+    },
+    "italian_adv": {
+      "name": "Advanced Italian",
+      "lang": "Italian",
+      "total": 6,
+      "reward": 250,
+      "overview": "learn_italian_adv.html"
+    },
+    "english_mid": {
+      "name": "Intermediate English",
+      "lang": "English",
+      "total": 8,
+      "reward": 200,
+      "overview": "learn_english_mid.html",
+      "next": "english_adv"
+    },
+    "japanese_kanji": {
+      "name": "Introduction to Kanji",
+      "lang": "Japanese",
+      "total": 8,
+      "reward": 200,
+      "overview": "learn_japanese_kanji.html",
+      "next": "japanese_adv"
+    },
+    "italian_mid": {
+      "name": "Intermediate Italian",
+      "lang": "Italian",
+      "total": 8,
+      "reward": 200,
+      "overview": "learn_italian_mid.html",
+      "next": "italian_adv"
+    }
+  },
+  "shop": [
+    {
+      "id": "freeze",
+      "type": "power",
+      "name": "Streak Freeze",
+      "desc": "Protects your streak if you miss a day. Used automatically. Hold up to 2.",
+      "price": 50,
+      "icon": "❄️",
+      "max": 2
+    },
+    {
+      "id": "theme_sunset",
+      "type": "theme",
+      "name": "Sunset theme",
+      "desc": "Warm orange and pink for your learning path and lessons.",
+      "price": 120,
+      "swatch": [
+        "#ff7a45",
+        "#ff4d8d"
+      ]
+    },
+    {
+      "id": "theme_forest",
+      "type": "theme",
+      "name": "Forest theme",
+      "desc": "Calm greens for your learning path and lessons.",
+      "price": 120,
+      "swatch": [
+        "#1f9d55",
+        "#7bd88f"
+      ]
+    },
+    {
+      "id": "theme_midnight",
+      "type": "theme",
+      "name": "Midnight theme",
+      "desc": "A dark path with glowing violet nodes.",
+      "price": 200,
+      "swatch": [
+        "#7c6cff",
+        "#1b1b3a"
+      ]
+    },
+    {
+      "id": "chest_gold",
+      "type": "chest",
+      "name": "Golden chest",
+      "desc": "A shiny gold reward chest at the end of every course path.",
+      "price": 150,
+      "skin": "gold"
+    },
+    {
+      "id": "chest_crystal",
+      "type": "chest",
+      "name": "Crystal chest",
+      "desc": "An icy crystal reward chest at the end of every course path.",
+      "price": 250,
+      "skin": "crystal"
+    },
+    {
+      "id": "badge_fox",
+      "type": "badge",
+      "name": "Fox badge",
+      "desc": "Shown next to your coins in the top bar.",
+      "price": 60,
+      "icon": "🦊"
+    },
+    {
+      "id": "badge_panda",
+      "type": "badge",
+      "name": "Panda badge",
+      "desc": "Shown next to your coins in the top bar.",
+      "price": 60,
+      "icon": "🐼"
+    },
+    {
+      "id": "badge_owl",
+      "type": "badge",
+      "name": "Owl badge",
+      "desc": "Shown next to your coins in the top bar.",
+      "price": 80,
+      "icon": "🦉"
+    },
+    {
+      "id": "badge_dragon",
+      "type": "badge",
+      "name": "Dragon badge",
+      "desc": "Shown next to your coins in the top bar.",
+      "price": 150,
+      "icon": "🐲"
+    }
+  ],
+  "xpPerLesson": 10,
+  "xpCourseBonus": 40
+}
