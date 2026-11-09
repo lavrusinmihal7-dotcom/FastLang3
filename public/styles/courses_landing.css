@@ -1,0 +1,19 @@
+/* Courses landing page: hero banner, patterned sections and course covers */
+.home.courses_hero{height:auto;min-height:400px;padding-top:160px;position:relative;overflow:hidden;
+  background:#1d1a8c url(../images/courses_hero.svg) center bottom/cover no-repeat}
+.courses_hero_inner{position:relative;z-index:2;padding-top:28px;padding-bottom:92px;color:#fff}
+.courses_hero_inner h1{font-size:46px;line-height:1.15;font-weight:700;color:#fff;margin:0 0 12px}
+.courses_hero_inner p{max-width:560px;font-size:17px;line-height:1.6;color:rgba(255,255,255,.86);margin:0}
+.courses_hero .breadcrumbs_container{z-index:3;bottom:6px}
+.courses_hero .breadcrumbs_list li,.courses_hero .breadcrumbs_list li a{color:rgba(40,40,70,.55)}
+.courses_hero .breadcrumbs_list li a:hover{color:rgba(40,40,70,.9)}
+.courses_hero .breadcrumbs_list li:not(:last-child)::after{color:rgba(40,40,70,.4)}
+.language{background:#f8f8f8 url(../images/courses_pattern.svg) repeat}
+.courses{background:#f8f8f8 url(../images/courses_pattern.svg) repeat}
+.course_image{position:relative;overflow:hidden;background:#2e21df}
+.course_image img{display:block;width:100%;height:auto;transition:transform .5s ease}
+.course:hover .course_image img{transform:scale(1.05)}
+.course_level{position:absolute;left:16px;bottom:14px;padding:4px 12px;border-radius:14px;background:rgba(255,255,255,.92);color:#2e21df;font-size:11px;font-weight:700;letter-spacing:.08em}
+.course_lessons{font-size:12px;color:rgba(0,0,0,.5);font-weight:600}
+@media (max-width:991px){.home.courses_hero{min-height:340px;padding-top:110px}.courses_hero_inner h1{font-size:34px}.courses_hero_inner{padding-bottom:78px}}
+@media (max-width:575px){.home.courses_hero{min-height:300px;padding-top:90px}.courses_hero_inner h1{font-size:28px}.courses_hero_inner p{font-size:15px}}
